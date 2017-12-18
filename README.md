@@ -11,6 +11,10 @@ To use this with your meteor app and heroku:
 
         heroku buildpacks:set https://github.com/AdmitHub/meteor-buildpack-horse.git
 
+want to use yarn?
+
+        heroku buildpacks:set https://github.com/AdmitHub/meteor-buildpack-horse#yarn
+
 3. Add the MongoLab addon:
 
         heroku addons:create mongolab
